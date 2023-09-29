@@ -1,0 +1,52 @@
+
+.navbar{
+    background-color: #1D267D;
+}
+.sidebar_items_list{
+    
+    border-bottom-style: solid;
+    border-bottom-color: #D4ADFC;
+    border-bottom-width: 1px;
+}
+.bar_icon{
+    /* margin-left: 10px; */
+}
+.logout{
+    background-color: #D4ADFC;
+}
+.sidebar{
+    border: 2px solid black;
+     height: 100vh;
+     background-color: #D4ADFC;
+}
+.main_page{
+    display: flex-box ;
+    align-content: center;
+    border: 2px solid #D4ADFC;
+    /* height: 100vh; */
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+.page_content{
+    color: white;
+    background-color: #1D267D;
+    
+}
+.addEmpBtn{
+    background-color: #D4ADFC;
+    border-radius: 50px;
+}
+.inputLabel{
+    border-radius: 7px;
+    margin-left: 10px;
+    padding-right: 15px ;
+    background-color: #D4ADFC;
+}
+
+table{
+    white-space: nowrap;
+}
+
+
+/* display: flex-box ;align-content: center;border: 2px solid rgb(151, 245, 0);height: 100vh;background-color: #0C134F; */
+

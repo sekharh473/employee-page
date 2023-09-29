@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="loggedin.js"></script>
+    <link rel="stylesheet" href="sidebar_toggle.css">
+    <link rel="stylesheet" href="uiColors.css">
+</head>
+<body>
+    <nav class="navbar navbar-light justify-content-between sticky-top">
+      <a><input type="checkbox" id="sidebar_checkbox"  class="inputLabel" style="display: none;">
+        <label for="sidebar_checkbox" style="padding-left: 15px;" class="inputLabel" onclick="checked()"><i class="fa-solid fa-bars bar_icon" ></i></label></a>
+        <form class="form-inline">
+          <button class="form-control mr-sm-2 logout" style="margin-right: 0%;" onclick="logOut()" type="button">Log Out <i class="fa-solid fa-right-from-bracket"></i></button> 
+        </form>
+      </nav>
+      <!-- nav bar ended here -->
+
+
+
+      <!-- page contents starts here  -->
+
+      <div class="container-fluid">
+
+        <!-- side bar stats from here  -->
+        <div class="row">
+             <!-- <div class="col-lg-3 bg-light sidebar" style=" height: 100vh;" >
+             -->
+             <div class="col-12 col-sm-2 col-md-2 col-xl-2  sidebar" id="sidebar_menu" style="border: 2px solid black; height: 200vh;">
+              
+                <ul class="nav flex-column col-md col-sm">
+                  <li class="nav-item sidebar_items_list">
+                    <a class="nav-link active" id="profileAtag" href="dashboard_profile.html" style="
+                    color: #ffffff;"
+                 ><i class="fa-solid fa-user" style="color: #ffffff;"></i>
+                      Profile
+                    </a>
+                  </li>
+                    <li class="nav-item sidebar_items_list">
+                    <a class="nav-link" id="employeeAtag" href="employees.html" style="
+                    color: #ffffff;"><i class="fa-solid fa-list" style="color: #ffffff;"></i>
+                     Emps
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            
+            <div id="main-page" class="col-lg-10 col-md-10 col-sm-10 main_page">
+              <h1 style="display: flex-box;text-align: center ;">Hello!</h1>
+              
+              
+              
+              <h2 style="display: flex-box;text-align: center ;">welcome to the official page of employees!!</h2>
+              
+              
+              
+              <h6 style="display: flex-box;text-align: center ;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est libero culpa iure suscipit tempora tempore molestiae! Vitae incidunt unde corrupti reprehenderit excepturi eius optio repudiandae impedit. Saepe, accusantium dolore itaque illo error explicabo dignissimos eos minima perferendis aut quo dolores vel alias obcaecati sequi distinctio soluta veniam excepturi optio dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis laborum commodi laudantium temporibus aliquid alias veniam ipsam iusto adipisci consequatur. Cupiditate minima accusantium aperiam, praesentium quis aut officiis laboriosam necessitatibus est saepe, quo molestias quaerat sint voluptates rem, optio ex quia dolor perspiciatis et. Et, modi odio tempore ab provident doloribus eos! Ipsa possimus dicta tenetur. Illo consequuntur excepturi maxime doloremque! Voluptatibus voluptates quo culpa veniam alias aspernatur, laborum in officiis quod sint laudantium quos saepe ad, aperiam delectus. Assumenda animi aliquam unde non voluptate qui nisi illo similique at quis, dicta explicabo tenetur accusamus repellendus reprehenderit inventore quasi amet nesciunt aliquid vel totam ratione perspiciatis! Maxime nulla atque nam aperiam error voluptatum quis sit odit qui soluta, quaerat quia doloribus expedita illo, voluptates velit veritatis? In cum quasi nulla, ea labore porro commodi aliquid, officiis iure perferendis ratione id laudantium pariatur accusantium autem possimus praesentium odio repudiandae minima quaerat, quos excepturi. Delectus ducimus amet ipsa reiciendis odio dolorum eius dolores necessitatibus, quis quasi sint voluptate soluta nihil repellendus aut officia. Cumque aliquam alias voluptatum explicabo soluta quaerat quia! Fuga recusandae rem sunt ipsa illo debitis nulla ratione laborum facilis, quo similique ea ipsam placeat, error, minima tempore perferendis id.</h6>
+    </div>
+    <script src="logout.js"></script>
+    <script src="sidebar_toggle.js"></script>
+    
+</body>
+</html>
